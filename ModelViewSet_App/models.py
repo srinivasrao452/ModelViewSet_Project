@@ -1,6 +1,8 @@
 
 from django.db import models
 
+# This code added from Github account.
+
 class Employee(models.Model):
     empid = models.IntegerField(primary_key=True)
     ename = models.CharField(max_length=30)
